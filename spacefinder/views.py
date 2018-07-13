@@ -1,6 +1,6 @@
 from rest_framework import generics
 
-from spacefinder import ParkingSpotSerializer
+from spacefinder.serializers import ParkingSpotSerializer
 from spacefinder.models import ParkingSpot
 
 

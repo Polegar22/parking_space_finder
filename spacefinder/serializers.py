@@ -5,5 +5,5 @@ from spacefinder.models import ParkingSpot
 
 class ParkingSpotSerializer(serializers.ModelSerializer):
     class Meta:
-        fields = ('id', 'creationDate', 'lat', 'lon', 'type', 'size', 'plannedDuration', 'comment')
+        fields = ('id', 'creationDate', 'latitude', 'longitude', 'type', 'size', 'plannedDuration', 'comment')
         model = ParkingSpot
